@@ -2,3 +2,48 @@
   font-family: sans-serif;
   text-align: center;
 }
+.timezone {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.timezone-title {
+  color: rgb(221, 19, 12);
+  margin-bottom: 10px;
+}
+.item {
+  width: 500px;
+  margin: auto;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}
+.infor {
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+.label-location {
+  color: red;
+  font-weight: 600;
+}
+.label-zone {
+  font-style: italic;
+}
+.button {
+  padding: 5px 20px;
+  background-color: rgb(217, 148, 102);
+  outline: none;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(233, 49, 17);
+  transition: 0.5s all;
+}
